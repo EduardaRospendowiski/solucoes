@@ -22,8 +22,8 @@
 }
 
 #Menu-R{
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 123, 0);
+    color: black;
     float: right;
     width: 30%;
     height: 100vh;
