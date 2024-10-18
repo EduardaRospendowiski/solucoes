@@ -7,39 +7,37 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- <ul class="nav nav-tabs" id="myTab" role="tablist">
-        <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="Soluções" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="Energia solar" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="Construção" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="Carrgadores" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" disabled>Disabled</button>
-        </li>
-        li class="nav-item" role="presentation">
-          <button class="nav-link" id="Projeto Enegenharia" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" disabled>Disabled</button>
-        </li>
-      </ul>
-      <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="Energia solar" role="tabpanel" aria-labelledby="home-tab" tabindex="0">...</div>
-        <div class="tab-pane fade" id="Construção" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
-        <div class="tab-pane fade" id="Carredores-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
-        <div class="tab-pane fade" id="Proj. Enegenharia" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
-      </div> -->
+  
+  <div id="Menu-Lateral">
+    <div id="Embaca" onclick="SairM()">
+    </div>
+    <div id="Menu-R">
+        <h3>Carregador</h3>
+        <h3>Energia Solar</h3>
+        <h3>Proj. de Engenharia</h3>
+        <h3>Execução de Obras</h3>
+    </div>
+</div>
+
+  <div id="Pagina">
       <div class="nav">
-        <ul>
-          <li>
-            <a>Soluções</a>
-            <a href="energiasolar.html">Energia Solar</a>
-            <a href="construcao.html">Construção</a>
-            <a href="projetoengenharia.html">Projeto Engenharia</a>
-            <a href="carregadores.html">Carregadores</a>
-          </li>
-        </ul>
+        <div id="navI">
+            <a class="NavIte" id="logoText" href="index.html">Soluções</a>
+            <a class="NavIte" href="energiasolar.html">Energia Solar</a>
+            <a class="NavIte" href="construcao.html"> Construção</a>
+            <a class="NavIte" href="projetoengenharia.html"> Projeto Engenharia</a>
+            <a class="NavIte" href="carregadores.html"> Carregadores</a>
+        </div>
+        <div id="NavII">
+          <button id="Menu" onclick="ShowMe()"><img class="ico" src="img/MenuIco.png"></button>
+        </div>
       </div>
+      <div id="Whats">
+        <a id="LinkWha" href="https://www.whatsapp.com/?lang=pt_BR">
+          <img id="ZapI" class="ico" src="img/Zap.png" alt="Icone do whatsapp">
+        </a>
+      </div>
+  </div>
 </body>
+<script src="js/script.js"></script>
 </html>
